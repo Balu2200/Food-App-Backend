@@ -9,7 +9,7 @@ process.env.GOOGLE_APPLICATION_CREDENTIALS = process.env.GOOGLE_APPLICATION_CRED
 const app = express();
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://food-app-frontend-pearl.vercel.app",
     credentials: true,
   })
 );
